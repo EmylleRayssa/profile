@@ -750,7 +750,8 @@ img.grayscale:hover {
 	position:relative;
 	position:relative;
 	z-index:1;
-	overflow:hidden;
+	/* overflow:hidden; */
+	/* width:50%; */
 }
 .effects .img:nth-child(n) {
 	margin-right:5px;
@@ -801,15 +802,15 @@ img.grayscale:hover {
 	opacity:1;
 }
 .img img {
-	width:-webkit-calc(100%+40px) !important;
-	width:calc(100%+40px) !important;
-	-webkit-transition:opacity 0.35s,-webkit-transform 0.35s;
+	/* width:-webkit-calc(100%) !important; */
+	width:calc(400%) !important;
+	/* -webkit-transition:opacity 0.35s,-webkit-transform 0.35s;
 	transition:opacity 0.35s,transform 0.35s;
 	-moz-transition:opacity 0.35s,-moz-transform 0.35s;
 	-o-transition:opacity 0.35s,-o-transform 0.35s;
 	-webkit-transform:translate3d(-40px,0,0);
 	transform:translate3d(-40px,0,0);
-	-ms-transform:translate3d(-40px,0,0);
+	-ms-transform:translate3d(-40px,0,0); */
 }
 .img:hover img {
 	-webkit-transform:translate3d(0,0,0);
@@ -823,7 +824,7 @@ img.grayscale:hover {
 	margin-left:auto;
 	margin-right:auto;
 	top: 50px;
-}
+} 
 /* ==========================================================================Subscribe========================================================================== */
 .subscribe {
 	padding-top:75px;
